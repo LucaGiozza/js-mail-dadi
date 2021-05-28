@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenitore{
+    background-color: aqua;
+    width:100%;
+    height: 100vh;
+    position: relative;
+    
+    
+    
+}
+#numeri{
+    text-align: center;
+    padding-top: 20%;
+    font-size: 50px;
+   
+}
+#giocatore{
+    position: absolute;
+    top: 50%;
+    left:10%;
+    font-size: 45px;
+}
+
+
+#cpu{
+   
+    font-size: 45px; 
+    position: absolute;
+    top: 50%;
+    left:87%;
+    
+}
+.risultato-utente{
+    position: absolute;
+    top: 45%;
+    left:7%;
+    font-size: 25px;
+    color: blue;
+}
+.risultato-computer{
+    position: absolute;
+    top: 45%;
+    left:82%;
+    font-size: 25px;
+    color: red;
+}
