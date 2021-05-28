@@ -28,9 +28,10 @@
   }else{
       risultato = 'Hai pareggiato, fossi in te mi accontenterei..'
   }
+  
 
   document.getElementById('numeri').innerHTML= risultato;
   document.getElementById('giocatore').innerHTML= utente;
   document.getElementById('cpu').innerHTML= computer;
   
-  
+//   o altrimenti potrei concatenarli con +
